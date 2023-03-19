@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
+import "./style.css";
 
 function Aboutpage()
 {
-    return "hi";
+    return <h1 className="second">this project updated on git</h1>
 }
 export default Aboutpage
 
