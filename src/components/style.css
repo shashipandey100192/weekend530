@@ -1,0 +1,11 @@
+body{
+    background-color:aquamarine;
+}
+
+.first
+{
+    width:100%;
+    height:200px;
+    background-color: aqua;
+    font-size: 40px;
+}
