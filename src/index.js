@@ -1,22 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Aboutpage, { Contactus, Myfun, Second } from './components/About';
-import Myform from './components/Myform';
 import "./components/style.css";
-import Mycontact from './components/Contactus';
-import Myhooks from './components/Myhooks';
+import Mynav from './pages/Mynav';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Ladingpage from './pages/Ladingpage';
+import Myform from './pages/Myform';
+import {Myerrorpage} from './pages/Myerrorpage';
+import Myjsondata from './pages/Myjsondata';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Myhooks/>
-    <Aboutpage />
-    <Contactus/>
-    <Myfun />
-    <Second></Second>
-    <Myform/>
-    <Mycontact/>
+ 
+  <BrowserRouter>
+  <Mynav/>
+      <Routes>
+            <Route path='' element={<Ladingpage/>}/>
+            <Route path='myform' element={<Myform/>}/>
+            <Route path='*' element={<Myerrorpage/>}/>
+            <Route path='mydata' element={<Myjsondata/>}/>
+      </Routes>
+  </BrowserRouter>
     
   </React.StrictMode>
 );

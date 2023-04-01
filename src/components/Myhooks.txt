@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useState } from "react";
 
 function Myhooks()
 {
-    const [sv,sf]= useState("xyz")
+    const [sv,sf]= useState("xyz");
 const myfun = ()=>{
 
     sf("jsdkfj skdfj klsd fjkshjfkhsdjkfh");
