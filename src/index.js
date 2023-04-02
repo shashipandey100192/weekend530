@@ -7,6 +7,7 @@ import Ladingpage from './pages/Ladingpage';
 import Myform from './pages/Myform';
 import {Myerrorpage} from './pages/Myerrorpage';
 import Myjsondata from './pages/Myjsondata';
+import Detailspage from './pages/Detailspage';
 
 
 
@@ -21,6 +22,7 @@ root.render(
             <Route path='myform' element={<Myform/>}/>
             <Route path='*' element={<Myerrorpage/>}/>
             <Route path='mydata' element={<Myjsondata/>}/>
+            <Route path='mydata/:id' element={<Detailspage/>}/>
       </Routes>
   </BrowserRouter>
     

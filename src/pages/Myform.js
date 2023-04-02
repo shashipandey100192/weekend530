@@ -15,7 +15,7 @@ function Myform() {
                 <div className="text-danger">email id is required</div>
             </div>
             <div className='col-md-6 mt-4'>
-                <label className="form-label">photo no</label>
+                <label className="form-label">phone no</label>
                 <input type="text" className="form-control" />
                 <div className="text-danger">required phone no</div>
             </div>
