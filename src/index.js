@@ -8,6 +8,7 @@ import Myform from './pages/Myform';
 import {Myerrorpage} from './pages/Myerrorpage';
 import Myjsondata from './pages/Myjsondata';
 import Detailspage from './pages/Detailspage';
+import Myjsform from './pages/Myjsform';
 
 
 
@@ -23,6 +24,7 @@ root.render(
             <Route path='*' element={<Myerrorpage/>}/>
             <Route path='mydata' element={<Myjsondata/>}/>
             <Route path='mydata/:id' element={<Detailspage/>}/>
+            <Route path='myjsform' element={<Myjsform/>}/>
       </Routes>
   </BrowserRouter>
     

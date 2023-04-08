@@ -23,8 +23,9 @@ function Mynav() {
           <Link className="nav-link active" aria-current="page" to="mydata">jsondata</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
+          <Link className="nav-link active" aria-current="page" to="myjsform">myjsform</Link>
         </li>
+       
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
