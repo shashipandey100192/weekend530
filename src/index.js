@@ -9,6 +9,7 @@ import {Myerrorpage} from './pages/Myerrorpage';
 import Myjsondata from './pages/Myjsondata';
 import Detailspage from './pages/Detailspage';
 import Myjsform from './pages/Myjsform';
+import Myaxios from './networkapi/Myaxios';
 
 
 
@@ -25,6 +26,7 @@ root.render(
             <Route path='mydata' element={<Myjsondata/>}/>
             <Route path='mydata/:id' element={<Detailspage/>}/>
             <Route path='myjsform' element={<Myjsform/>}/>
+            <Route path='myaxios' element={<Myaxios/>}/>
       </Routes>
   </BrowserRouter>
     
