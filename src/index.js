@@ -10,6 +10,8 @@ import Myjsondata from './pages/Myjsondata';
 import Detailspage from './pages/Detailspage';
 import Myjsform from './pages/Myjsform';
 import Myaxios from './networkapi/Myaxios';
+import ApiDetails from './networkapi/ApiDetails';
+import Mycharts from './networkapi/Mycharts';
 
 
 
@@ -27,6 +29,8 @@ root.render(
             <Route path='mydata/:id' element={<Detailspage/>}/>
             <Route path='myjsform' element={<Myjsform/>}/>
             <Route path='myaxios' element={<Myaxios/>}/>
+            <Route path='myaxios/:id' element={<ApiDetails/>}/>
+            <Route path='mychart' element={<Mycharts/>}/>
       </Routes>
   </BrowserRouter>
     

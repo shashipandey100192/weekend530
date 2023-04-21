@@ -46,7 +46,7 @@ useEffect(()=>{
                      <div className="card-body bg-info text-white">
                          <h5 className="card-title bg-success p-2">{a.title}</h5>
                          <p className="card-text">{a.body}</p>
-                         <Link to={`${a.id}`} className="btn btn-primary">{a.id}</Link>
+                         <Link to={`${a.id}`} className="btn btn-danger">{a.id}</Link>
                      </div>
                      </div>
                      </div>

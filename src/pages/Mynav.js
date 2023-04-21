@@ -28,6 +28,9 @@ function Mynav() {
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="myaxios">axios api</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="mychart">charts</Link>
+        </li>
        
        
       </ul>
