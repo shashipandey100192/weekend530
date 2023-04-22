@@ -31,7 +31,12 @@ function Mynav() {
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="mychart">charts</Link>
         </li>
-       
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="rboot">react bootstrap</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="uimetrial">ui metrial</Link>
+        </li>
        
       </ul>
       <form className="d-flex" role="search">

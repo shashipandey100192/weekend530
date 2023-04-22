@@ -12,6 +12,8 @@ import Myjsform from './pages/Myjsform';
 import Myaxios from './networkapi/Myaxios';
 import ApiDetails from './networkapi/ApiDetails';
 import Mycharts from './networkapi/Mycharts';
+import Reactbootstrappage from './networkapi/Reactbootstrappage';
+import Uimetrialpage from './networkapi/Uimetrialpage';
 
 
 
@@ -31,6 +33,9 @@ root.render(
             <Route path='myaxios' element={<Myaxios/>}/>
             <Route path='myaxios/:id' element={<ApiDetails/>}/>
             <Route path='mychart' element={<Mycharts/>}/>
+            <Route path='rboot' element={<Reactbootstrappage/>}/>
+            <Route path='uimetrial' element={<Uimetrialpage/>}/>
+            
       </Routes>
   </BrowserRouter>
     

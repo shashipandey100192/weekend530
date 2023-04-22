@@ -15,7 +15,7 @@ function Myjsondata() {
             </div> */}
             {datalist.map((p)=>{
                 return(
-                    <div className='col-md-4 mt-3'>
+                    <div className='col-md-4 mt-3' key={p.id}>
                         <div className='card shadow p-3'>
                             <p className='h3'>{p.id}</p>
                             <p>{p.name}</p>
