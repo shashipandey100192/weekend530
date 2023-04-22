@@ -1,0 +1,125 @@
+react
+===================================
+1) install
+	1) nodejs
+	2) git bash
+	3) git account
+2) GUI vs CLI
+3) what is node js ?
+4)  component (page)
+	1) function
+	2) class
+5) what is npm ?
+6) node_modules	
+7) project create
+	npx create-react-app client
+8) code . ( open in vs code)
+9) terminal  ( application cli management)
+10) default port 3000
+11) package.json
+12) dependencies
+13) npm start ( run react project) 
+14) file format
+	.js
+	.jsx
+	.ts
+	.tsx
+-------------------------------------------------
+15) Notes: component  name and function name must be start from uppercase
+16) import or export
+	1) default
+	2) name {}
+17) multi export 
+18) return 
+	string,number,array,object,component,html element
+19) Fragment
+20) UI for react
+	1) core (css)
+	2) bootstrap
+	3) react-bootstrap
+	4) UI-metrial	
+21) Note: class replace to className
+22) expresstion {}
+--------------------------------------
+23) bootstrap
+	1) npm install bootstrap
+	2) import
+24) icon 
+	1) npm install react-icons --save
+	2) import 
+------------------------------------------------------
+git
+================
+1) git remote -v   ( to check remote connection)
+2) create Repositories ( repo name and project name must be same)
+3) git init
+4) git remote add origin <repo path>
+5) git add --all
+6) git commit -m "any message"
+7) git push origin <name of branch>
+8) git clone <path>
+9) npm install
+10) npm start
+11) git pull origin <name of branch>
+-----------	
+	git add --all
+	git commit -m "mesage"
+	git pull origin master
+----------------------------------------------------------
+25) react hooks
+	1) useState()
+	2) useEffect()
+----------------------------------------------------------
+26) react routing
+	1) npm install react-router-dom
+	2) import  
+		1) BrowserRouter
+		2) Route
+		3) Routes
+		4) Link
+		5) to
+		6) useParams()
+
+27) replace
+	class		className
+	a		Link
+	href		to
+28) json data format
+29) data binding
+30) map()
+-----------------------------------------
+31) param routing
+-----------------------------------------
+32) form falidation
+	react-hook-form
+	1) install react-hook-form
+	2) import (useForm)
+	3) inject function from useForm hook
+33) form validation (js)
+----------------------------------------------------
+34) api axios
+	1) npm install axios
+	2) import 
+	3) inject
+-------------------------------------------------------
+35) chart / graph
+	1) npm install recharts
+	2) import
+	3) inject
+36) react icon
+	1) npm install react-icons --save
+-------------------------------------------------------
+37) react-bootstrap
+	1) npm install 
+	2) import
+38) ui metrial
+	1) npm install @mui/material @emotion/react @emotion/styled
+	2) npm install @mui/x-data-grid
+
+
+
+	
+
+
+
+
