@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {lazy, Suspense}from 'react';
 import ReactDOM from 'react-dom/client';
 import "./components/style.css";
 import Mynav from './pages/Mynav';
@@ -14,6 +14,9 @@ import ApiDetails from './networkapi/ApiDetails';
 import Mycharts from './networkapi/Mycharts';
 import Reactbootstrappage from './networkapi/Reactbootstrappage';
 import Uimetrialpage from './networkapi/Uimetrialpage';
+import Mainpage from './pages/Layout/Mainpage';
+import Mycontextapi from './pages/Mycontextapi';
+const Mylazy = lazy(()=> import('./pages/Mylazypage'));
 
 
 
@@ -35,8 +38,17 @@ root.render(
             <Route path='mychart' element={<Mycharts/>}/>
             <Route path='rboot' element={<Reactbootstrappage/>}/>
             <Route path='uimetrial' element={<Uimetrialpage/>}/>
-            
+            <Route path="lazy" element={
+              <Suspense fallback={<h1 style={{color:'red'}}>Loading</h1>}>
+                <Mylazy/>
+              </Suspense>
+            }></Route>
+            <Route path='myprops' element={<Mainpage/>}/>
+            <Route path='context' element={<Mycontextapi/>}/>
+           
       </Routes>
+
+
   </BrowserRouter>
     
   </React.StrictMode>

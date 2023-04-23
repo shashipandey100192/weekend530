@@ -37,6 +37,15 @@ function Mynav() {
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="uimetrial">ui metrial</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="lazy">lazy loading</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="myprops">props</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="context">context api</Link>
+        </li>
        
       </ul>
       <form className="d-flex" role="search">
