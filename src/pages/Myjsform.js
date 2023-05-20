@@ -23,8 +23,14 @@ const inputdata= (p)=>{
     
 }
 
+document.cookie = "favorite_food=tripe; SameSite=None; Secure";
 const myfinaldata = ()=>{
     console.log(a);
+    localStorage.setItem("mydata",JSON.stringify(a));
+    localStorage.setItem("mynew","kumar");
+    sessionStorage.setItem("mydata",JSON.stringify(a));
+    sessionStorage.setItem("mynew","kumar");
+    
 }
 
 
