@@ -115,7 +115,52 @@ git
 38) ui metrial
 	1) npm install @mui/material @emotion/react @emotion/styled
 	2) npm install @mui/x-data-grid
+---------------------------------------------------------
+39) lazy loding
+	1) lazy()
+	2) suspance
+	3) fallback
+40) props
+	parent to child
+41) use context Api
+	createContext()
+	Provider
+	useContext()
+-------------------------------------------------------------
+42) storage
+	1) local
+		setItem()
+		getItem()
+		removeItem()
+		clear()
+	2) session
+		setItem()
+		getItem()
+		removeItem()
+		clear()
+	3) cookies
+43) build project
+	npm run build
+45) netlify ( free hosting)
+	1) login netlify
+	2) menually upload
+---------------------------------
+46) auth (pending)
+ 	1) auth0 login
+	2) create application
+	3) 
+47) react redux
+	1) npm install @reduxjs/toolkit react-redux
+	2) create store
+	configureStore
+	reducer
+	Provider
+	createSlice
+	useSelector
+	useDispatch
+	
 
+	
 
 
 	
