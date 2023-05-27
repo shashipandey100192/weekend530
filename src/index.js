@@ -16,6 +16,9 @@ import Reactbootstrappage from './networkapi/Reactbootstrappage';
 import Uimetrialpage from './networkapi/Uimetrialpage';
 import Mainpage from './pages/Layout/Mainpage';
 import Mycontextapi from './pages/Mycontextapi';
+import { Provider } from 'react-redux';
+import { store } from './redux/storage';
+import { Mycounter } from './redux/Mycounter';
 const Mylazy = lazy(()=> import('./pages/Mylazypage'));
 
 
@@ -25,9 +28,11 @@ root.render(
   <React.StrictMode>
  
   <BrowserRouter>
+  <Provider store={store}>
   <Mynav/>
       <Routes>
-            <Route path='' element={<Ladingpage/>}/>
+            {/* <Route path='' element={<Ladingpage/>}/> */}
+            <Route path='' element={<Mycounter/>}/>
             <Route path='myform' element={<Myform/>}/>
             <Route path='*' element={<Myerrorpage/>}/>
             <Route path='mydata' element={<Myjsondata/>}/>
@@ -48,7 +53,7 @@ root.render(
            
       </Routes>
 
-
+      </Provider>
   </BrowserRouter>
     
   </React.StrictMode>
